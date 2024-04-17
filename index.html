@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 스터디 ::: 여상수</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>웹화면 구현 수업의 웹스터디 페이지</h1>
+    <h2>여상수</h2>
+    <p>하나의 문단을 작성할 때는 <em>p 태그</em>를 사용합니다.</p>
+    <p>안녕하세요, <br>
+        <strong>코딩 공부</strong>하기 좋은 날입니다. <br><br>
+        <i class="fa-brands fa-tiktok fa-2xl" style="color: #f20202;"></i>
+        <i class="fa-brands fa-facebook fa-beat fa-2xl" style="color: #74C0FC;"></i>
+        <i class="fa-brands fa-facebook fa-2xl" style="color: #74C0FC;"></i>
+    </p>
+    <hr>
+    <div class="contents">
+        <dl>
+            <dt>영화소개 : DUNE part 2 / 듄2</dt>
+            <dd>
+                <a target="_blank" href="https://namu.wiki/w/%EB%93%84:%20%ED%8C%8C%ED%8A%B8%202"><img
+                        src="https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20240207_151%2F1707288437263gBsdd_JPEG%2Fmovie_image.jpg"
+                        alt=""></a><br>
+                2024년 2월 28일에 개봉한 드니 빌뇌브 감독의 듄 시리즈 실사영화. 2021년 영화 〈듄〉의 속편이다.
+            </dd>
+        </dl>
+    </div>
+    <div id="ootd">
+        <dl>
+            <dt>올해의 팬톤 컬러 : Peach Fuzz</dt>
+            <dd>
+                <img src="https://m.pantonepaint.co.kr/images/pantonepaint/2024_year_i_01.png" alt=""><br>
+                2024 PANTONE 13-1023 Peach Fuzz는 모든 것을 포용하는 색으로, 몸과 마음 그리고 영혼을 풍요롭게 만드는 벨벳처럼 부드러운 복숭아색입니다.
+                타인과의 공존에 대한 열망과 이것이 만들어내는 감정을 강조하는 따뜻하고 포근한 색상인 PANTONE 13-1023 Peach Fuzz는 새로운 부드러움에 대한 신선한 접근 방식을
+                제시합니다.
+                섬세하고 감각적인 PANTONE 13-1023 Peach Fuzz는 진심 어린 다정함을 전하는 복숭아 색조로, 부드러움과 배려, 나눔, 공동체와 협력의 메시지를 전달합니다.
+            </dd>
+        </dl>
+    </div>
+    <a target="_blank"
+        href="https://namu.wiki/w/%EC%82%BC%EC%B2%B4%28%EB%AF%B8%EA%B5%AD%20%EB%93%9C%EB%9D%BC%EB%A7%88%29">
+        <div class="contents">
+            <dl>
+                <dt>넷플릭스 소개: 3 Body Problem / 삼체</dt>
+                <dd>
+                    <img src="https://i.namu.wiki/i/Q1qGosY2t93-SkNfiagCfxMDtm4nURB1tJaZIqub2WEGcUEVhJgyp38XH445aRlbOOE6EsGZO-cYJBbbX8p2o2Mu0g5ILacgKTpr5uDAyHx9IuP_XkVg0Ex3zwagqjCBwiEsS6G9elY6wPZUNTvYfg.webp"
+                        alt=""><br>
+
+                    “물리학은 존재하지 않는다”라는 유서를 남기고 자살한 동료 과학자 '양둥'의 죽음이 석연치 않았던 '왕먀오'는 국제적 과학 학술 단체 '과학의 경계'에 들어가고 그의 눈앞에 의문의
+                    카운트다운이 나타나는 등 과학적으로 설명이 안되는 이상 현상을 겪게 된다. 이후 왕먀오는 원인을 파헤치던 중 삼체 게임에 대해 알게 되고 그 게임 속 세계가 실존한다는 것을 점차
+                    확신하게 되는데...!
+                </dd>
+            </dl>
+        </div>
+    </a>
+
+    <div id="login_form">
+        <form action="#" method="get">
+            <input type="text" name="login_id" id="login_id" placeholder="아이디">
+            <input type="password" name="pwd" id="pwd" placeholder="비밀번호">
+
+            전화번호 : <input type="tel" name="" id="" disabled>
+            숫자 : <input type="number" name="" id="" value="7" readonly>
+            웹주소 : <input type="url" name="" id="">
+            검색어 : <input type="search" name="" id="">
+            이메일 주소 : <input type="email" name="" id="">
+            체크박스 : <input type="checkbox" name="" id="">
+            라디오버튼 : <input type="radio" name="" id="">
+            파일 첨부 : <input type="file" name="" id="">
+            <input type="button" value="나는 버튼입니다." onmouseout="alert('나감')" onclick="alert('버튼이 눌려졌습니다!');">
+            <input type="image" src="./src/facebook.png" style="width:100px" alt="">
+            히든은 보이지 않음<input type="hidden" name="">
+            날짜 : <input type="date" name="" id="">
+            날짜시간 : <input type="datetime-local" name="" id="">
+            월 : <input type="month" name="" id="">
+            주 :<input type="week" name="" id="">
+            시 : <input type="time" name="" id="">
+            범위 : <input type="range" name="" id="">
+            색상 선택 : <input type="color" name="" id="">
+            <textarea name="" id="" cols="30" rows="10">하고 싶은 말을 쓰세요!
+            </textarea>
+            <fieldset>
+                <legend>기본 정보</legend>
+                <p>
+                    <label for="userid">아이디</label>
+                    <input type="text" id="userid">
+                </p>
+                <p>
+                    <label for="passwd">비밀번호</label>
+                    <input type="password" id="passwd">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>선택 정보</legend>
+                <p>
+                    <label for="age">나이</label>
+                    <input type="number" id="age">
+                </p>
+                <p>
+                    <label for="recommender">추천인</label>
+                    <input type="text" id="recommender">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>좋아하는 과일</legend>
+                <input type="checkbox" id="banana" name="banana" value="banana">
+                <label for="banana">banana</label><br>
+                <input type="checkbox" id="apple" name="apple" value="apple">
+                <label for="apple">apple</label><br>
+                <input type="checkbox" id="orange" name="orange" value="orange" checked>
+                <label for="orange">orange</label><br>
+            </fieldset>
+            <select name="city" id="city" multiple size="10">
+                <optgroup label="서울시">
+                    <option value="강북구">강북구</option>
+                    <option value="강남구">강남구</option>
+                    <option value="서초구" selected>서초구</option>
+                </optgroup>
+                <optgroup label="경기도 성남시">
+                    <option value="중원구">중원구</option>
+                    <option value="분당구">분당구</option>
+                </optgroup>
+            </select>
+            <!-- <input type="submit" value="로그인 하기"> -->
+            <button type="submit">
+                <img src="./src/facebook.png" alt="페이스북 버튼">
+                페이스북에 등록하기
+            </button>
+            <input type="reset" value="양식 초기화">
+        </form>
+    </div>
+
+    <table style="border: 1px solid gray; text-align: center;">
+        <tr>
+            <th>번호</th>
+            <th>상품명</th>
+            <th>수량</th>
+            <th>가격</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>콜라</td>
+            <td>1개</td>
+            <td>1,500원</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>사이다</td>
+            <td>2개</td>
+            <td rowspan="2">1,000원</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>탄산수</td>
+            <td>3개</td>
+
+        </tr>
+        <tr>
+            <td>합계</td>
+            <td colspan="3">6,500원</td>
+
+        </tr>
+    </table>
+    <div style="width:700px; text-align:center">
+        <table width="500px" border="2" cellspacing="3">
+            <caption style="color:#f20202; font-weight:bold;">제품 주문표</caption>
+            <col style="width:10%;">
+            <colgroup span="3" style="width:20%; background-color:beige"></colgroup>
+            <col style="width:30%;">
+            <thead>
+                <tr>
+                    <th scope="col">순번</th>
+                    <th scope="col">품명</th>
+                    <th scope="col">단가</th>
+                    <th scope="col">수량</th>
+                    <th scope="col">비고</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td scope="row">합계</td>
+                    <td colspan="4">00000원</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td scope="row">1</td>
+                    <td>item</td>
+                    <td>item</td>
+                    <td>item</td>
+                    <td rowspan="3">item</td>
+                </tr>
+                <tr>
+                    <td scope="row">2</td>
+                    <td>item</td>
+                    <td>item</td>
+                    <td>item</td>
+                </tr>
+                <tr>
+                    <td scope="row">3</td>
+                    <td>item</td>
+                    <td>item</td>
+                    <td>item</td>
+                </tr>
+            </tbody>
+
+        </table>
+        <video src="./src/lovewinsall.mp4" controls></video>
+    </div>
+</body>
+
+</html>
