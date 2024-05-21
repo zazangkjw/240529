@@ -1,41 +1,57 @@
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;}
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;word-break:break-word;tab-size:4}
+html, body {height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+th, td {border: solid 1px #000;}
+
 img {
-    width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:90%;
+  height:auto;
 }
-dt {
-    font-weight: bold;
-    text-align: center;
+
+#head_title {
+  text-align: center;
+  font-size: 1.3em;
+  margin: 10px;
 }
-div#ootd dt {
-    color: red;
-    text-decoration: underline;
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 450px;
+  background-color: #c4c4c4;
+  border: 1px solid black;
 }
-div {
-    vertical-align: top;
-    display:inline-block;
-    border-top:solid 4px gray;
-    border-left:solid 4px gray;
-    border-right:solid 4px black;
-    border-bottom:solid 4px black;
-    margin: 10px;
-    padding: 10px 30px 10px 30px;
-    width: 300px;
-    height: 600px;            
+
+.flex-item {
+  width: auto;
+  color: white;
+  background-color: #52aaaa;
 }
-div.contents {
-    background-color: #ffff22;
+
+.flex-item:nth-child(2n) {
+  background-color: #5ebfbf;
 }
-div#ootd {
-    background-color: cyan;
+
+.grid-container{
+  display:grid;
+  grid-template-columns:50% 50%;
+  grid-template-rows:50% 50%;
+  width: 100%;
 }
-div#login_form {
-    text-align: center;
-    width: 500px;
-    height: auto;
+.grid-item{
+  color:white;
+  background-color:#52aaaa; /* 기본 배경색 */
 }
-div#login_form input {
-    display:block;
-    margin: 10px;
-}
-p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.grid-item:nth-child(2n){
+  background-color:#5ebfbf;
 }
